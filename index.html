@@ -10,6 +10,7 @@
 
     gtag('config', 'G-4XHXZE6Z11');
     </script>
+    <meta name="google-adsense-account" content="ca-pub-5617664585122030">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The official website for Duckz.">
@@ -17,7 +18,18 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="">
 </head>
+<script>
+function closeBanner() {
+    const banner = document.getElementById("topBanner");
+    banner.style.display = "none";
+}
+</script>
 <body>
+    <div class="top-banner" id="topBanner">
+        <p>⚠️ Mobile Website UI May Be Broken ⚠️</p>
+        <button class="banner-close" onclick="closeBanner()">✖</button>
+    </div>
+
     <header>
         <a href="index.html">
             <img src="https://assets.duckz.xyz/Assets/eljh.png" alt="Logo" class="Logo">
@@ -56,7 +68,7 @@
         <a href="/games/" class="card-a">
             <div class="card tooltip" id="Games">
                 <img src="https://assets.duckz.xyz/Assets/5930147.png" alt="games logo" class="">
-                <h2>Play Unbocked Games</h2>
+                <h2>Play Unblocked Games</h2>
                 <span class="tooltip-bubble">Shhhhhhh</span>
             </div>
         </a>
@@ -69,7 +81,7 @@
         </a>
         <a href="https://patreon.com/Duckz1?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank" class="card-a">
             <div class="card tooltip" id="support">
-                <img src="https://assets.duckz.xyz/Assets/Patreon%20Logo.png" alt="Patreon Logo">
+                <img src="https://assets.duckz.xyz/Assets/Patreon.webp" alt="Patreon Logo">
                 <h2>Support Us</h2>
                 <span class="tooltip-bubble">Plssssss🙏</span>
             </div>
